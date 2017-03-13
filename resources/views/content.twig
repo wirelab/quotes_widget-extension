@@ -1,0 +1,11 @@
+{% set data = widget.data.quote %}
+
+<blockquote class="text-center">
+	{{ data.quote|raw }}
+	<footer> - {{ data.author }} </footer>
+</blockquote>
+<div class="text-center gray"></div>
+
+<div class="small" style="text-align:right;">
+	Source: <a href="{{ data.source }}">quotesondesign</a>
+</div>

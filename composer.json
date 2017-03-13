@@ -1,0 +1,30 @@
+{
+    "name": "wirelab/quotes_widget-extension",
+    "type": "streams-addon",
+    "description": "A widget which shows a random quote.",
+    "keywords": [
+        "wirelab",
+        "quote",
+        "pyrocms",
+        "pyrocms 3",
+        "random quote"
+    ],
+    "homepage": "http://wirelab.nl/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wirelab",
+            "email": "info@wirelab.nl",
+            "homepage": "http://www.wirelab.nl/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "info@wirelab.nl"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wirelab\\QuotesWidgetExtension\\": "src/"
+        }
+    }
+}
